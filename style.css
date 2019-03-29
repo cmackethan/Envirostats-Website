@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:400,700');
+
+/*UNIVERSAL STYLE*/
+
+body{ 
+	background-color:white;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto;
+	position:center;
+	justify-content:center;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+/*HEADER STYLE*/
+
+.header{
+	background-color:black;
+}
+
+.nav{
+	width:100%;
+	background-color:black;
+	overflow:hidden;
+	text-decoration:none;
+	font-family: 'Chivo', sans-serif;
+	font-weight:bold;
+	font-size:25px;
+}
+
+.nav a{
+	margin-left:50px;
+	margin-right:50px;
+	vertical-align:middle;
+	color:white;
+	display:inline-block;
+	padding:auto;
+}
+
+.nav a:hover{
+	background-color:#69B5E1;
+}
+
+#logo{
+	height:17%;
+	width:17%;
+}
+
+#logo:hover{
+	background-color:black;
+	text-decoration:none;
+}
+
+
+/*HOME STYLE*/
+
+#homediv{
+	padding-top:20%;
+	text-align:center;
+	text-decoration: none;
+	color:white;
+}
+
+#homediv a{
+	padding:18.75px 125px;
+	width:100px;
+	margin:10px;
+	text-decoration: none;
+	color:white;
+	font-family: 'Chivo', sans-serif;
+	font-weight:bold;
+	font-size:25px;
+	background-color:orange;
+	display:inline-block;
+}
+
+#homediv a:hover{
+	text-decoration:underline;
+}
+
+/*CODE STYLE*/
+
+#codediv{
+	margin:auto;
+	width:50%;
+}
+
+#codebio{
+	padding:10px;
+	color:white;
+	background-color:gray;
+	font-family:Courier;
+}
+
+#codegithub{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	background-color:orange;
+	font-family: 'Chivo', sans-serif;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.codelabel{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	color:white;
+	background-color:orange;
+	font-family: 'Chivo', sans-serif;
+	font-size:20px;
+}
+
+#codediv xmp{
+	overflow:auto;
+	padding:10px;
+	color:black;
+	background-color:white;
+}
+
+/*MUSIC STYLE*/
+
+#musicdiv{
+	position:relative;
+	margin:auto;
+	width:50%;
+}
+
+#musicbio{
+	padding:10px;
+	color:white;
+	background-color:gray;
+	font-family:Courier;
+}
+
+#musicdiv iframe{
+	width:100%;
+	display:block;
+}
+
+#musicdiv iframe:last-child{
+	padding-bottom:50px;
+}
+
+.musiclabel{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	color:white;
+	background-color:orange;
+	font-family: 'Chivo', sans-serif;
+	font-size:20px;
+}
+
+/*CONTACT STYLE*/
+
+#contactdiv{
+	margin:auto;
+	width:50%;
+}
+
+#conradimage{
+	display:inline-block;
+	margin-top:20px;
+	margin-right:20px;
+	width:333px;
+	height:417px;
+	float:left;
+}
+
+.contactinfo{
+	width:100px;
+	display:inline-block;
+	padding:18.75px 125px;
+	float:left;
+	text-align:center;
+	text-decoration: none;
+	color:white;
+	background-color:orange;
+	font-family: 'Chivo', sans-serif;
+	font-size:20px;
+}
+
+#email{
+	margin-top:20px;
+}
+
+/*#conradimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	width:50%;
+	width:333px;
+	height:417px;
+}
+
+.contactinfo{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	color:white;
+	background-color:orange;
+	font-family: 'Chivo', sans-serif;
+	font-size:20px;
+}
+
+*/
+
+/* EXTRA /
+.nav{
+	background-color:black;
+	overflow:hidden;
+	text-align:center;
+}
+
+.nav a{
+	padding:15px 60px;
+	text-decoration: none;
+	color: white;
+	font-family:'Open Sans',sans-serif;
+	font-size:15px;
+	display:inline-block;
+}
+
+.nav a:hover{
+	color:black;
+	background-color:white;
+}
+
+#abouttext{
+	padding-top:50px;
+	margin-left:30%;
+	font-family:'Open Sans',sans-serif;
+}
+
+*/
