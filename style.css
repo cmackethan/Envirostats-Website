@@ -23,7 +23,6 @@ a{
 }
 
 .nav{
-	width:100%;
 	background-color:black;
 	overflow:hidden;
 	text-decoration:none;
@@ -42,19 +41,22 @@ a{
 }
 
 .nav a:hover{
-	background-color:#69B5E1;
+	text-decoration:underline;
 }
 
 #logo{
-	height:17%;
-	width:17%;
+	height:2.5em;
 }
 
 #logo:hover{
-	background-color:black;
 	text-decoration:none;
 }
 
+.navelements{
+	display:inline-block;
+	position:relative;
+	width:80%;
+}
 
 /*HOME STYLE*/
 
